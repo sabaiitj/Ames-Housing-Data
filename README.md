@@ -17,9 +17,9 @@ The results of the various regressions have been saved as csv files namely 'Mode
 
 ## Models
 Models employed are:
-1.feature Engineered
-2.Linear Regression with continuous variables
-3.Ridge Regression with continuous variables
+1. feature Engineered
+2. Linear Regression with continuous variables
+3. Ridge Regression with continuous variables
 4. Lasso continuous with continuous variables
 
 
