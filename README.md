@@ -18,7 +18,9 @@ The dataset set used here is Ames Housing dataset. There are two parts in data.
 The training data is not clean. So first the cleaning of this dataset was done,to eventually find no nulls. Certain columns were dropped in this process such as Alley which had to many missing values.
 
 ### Data Dictionary
+
    SalePrice - the property's sale price in dollars. This is the target variable.
+   
    MSSubClass: The building class
        20 1-STORY 1946 & NEWER ALL STYLES
        30 1-STORY 1945 & OLDER
@@ -36,6 +38,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        160 2-STORY PUD - 1946 & NEWER
        180 PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190 2 FAMILY CONVERSION - ALL STYLES AND AGES
+       
    MSZoning: Identifies the general zoning classification of the sale.
        A Agriculture
        C Commercial
@@ -45,40 +48,50 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        RL Residential Low Density
        RP Residential Low Density Park
        RM Residential Medium Density
+       
    LotFrontage: Linear feet of street connected to property
+   
    LotArea: Lot size in square feet
+   
    Street: Type of road access to property
        Grvl Gravel
        Pave Paved
+       
    Alley: Type of alley access to property
        Grvl Gravel
        Pave Paved
        NA No alley access
+       
    LotShape: General shape of property
        Reg Regular
        IR1 Slightly irregular
        IR2 Moderately Irregular
        IR3 Irregular
+       
    LandContour: Flatness of the property
        Lvl Near Flat/Level
        Bnk Banked - Quick and significant rise from street grade to building
        HLS Hillside - Significant slope from side to side
        Low Depression
+       
    Utilities: Type of utilities available
        AllPub All public Utilities (E,G,W,& S)
        NoSewr Electricity, Gas, and Water (Septic Tank)
        NoSeWa Electricity and Gas Only
        ELO Electricity only
+       
    LotConfig: Lot configuration
        Inside Inside lot
        Corner Corner lot
        CulDSac Cul-de-sac
        FR2 Frontage on 2 sides of property
        FR3 Frontage on 3 sides of property
+       
    LandSlope: Slope of property
        Gtl Gentle slope
        Mod Moderate Slope
        Sev Severe Slope
+       
    Neighborhood: Physical locations within Ames city limits
        Blmngtn Bloomington Heights
        Blueste Bluestem
@@ -106,6 +119,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        StoneBr Stone Brook
        Timber Timberland
        Veenker Veenker
+       
    Condition1: Proximity to main road or railroad
        Artery Adjacent to arterial street
        Feedr Adjacent to feeder street
@@ -116,6 +130,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        PosA Adjacent to postive off-site feature
        RRNe Within 200' of East-West Railroad
        RRAe Adjacent to East-West Railroad
+       
    Condition2: Proximity to main road or railroad (if a second is present)
        Artery Adjacent to arterial street
        Feedr Adjacent to feeder street
@@ -126,12 +141,14 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        PosA Adjacent to postive off-site feature
        RRNe Within 200' of East-West Railroad
        RRAe Adjacent to East-West Railroad
+       
    BldgType: Type of dwelling
        1Fam Single-family Detached
        2FmCon Two-family Conversion; originally built as one-family dwelling
        Duplx Duplex
        TwnhsE Townhouse End Unit
        TwnhsI Townhouse Inside Unit
+       
    HouseStyle: Style of dwelling
        1Story One story
        1.5Fin One and one-half story: 2nd level finished
@@ -141,6 +158,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        2.5Unf Two and one-half story: 2nd level unfinished
        SFoyer Split Foyer
        SLvl Split Level
+       
    OverallQual: Overall material and finish quality
        10 Very Excellent
        9 Excellent
@@ -152,6 +170,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        3 Fair
        2 Poor
        1 Very Poor
+       
    OverallCond: Overall condition rating
        10 Very Excellent
        9 Excellent
@@ -163,8 +182,11 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        3 Fair
        2 Poor
        1 Very Poor
+       
    YearBuilt: Original construction date
+   
    YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+   
    RoofStyle: Type of roof
        Flat Flat
        Gable Gable
@@ -172,6 +194,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Hip Hip
        Mansard Mansard
        Shed Shed
+       
    RoofMatl: Roof material
        ClyTile Clay or Tile
        CompShg Standard (Composite) Shingle
@@ -181,6 +204,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Tar&Grv Gravel & Tar
        WdShake Wood Shakes
        WdShngl Wood Shingles
+       
    Exterior1st: Exterior covering on house
        AsbShng Asbestos Shingles
        AsphShn Asphalt Shingles
@@ -199,6 +223,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        VinylSd Vinyl Siding
        Wd Sdng Wood Siding
        WdShing Wood Shingles
+       
    Exterior2nd: Exterior covering on house (if more than one material)
        AsbShng Asbestos Shingles
        AsphShn Asphalt Shingles
@@ -217,25 +242,30 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        VinylSd Vinyl Siding
        Wd Sdng Wood Siding
        WdShing Wood Shingles
+       
    MasVnrType: Masonry veneer type
        BrkCmn Brick Common
        BrkFace Brick Face
        CBlock Cinder Block
        None None
        Stone Stone
+       
    MasVnrArea: Masonry veneer area in square feet
+   
    ExterQual: Exterior material quality
        Ex Excellent
        Gd Good
        TA Average/Typical
        Fa Fair
        Po Poor
+       
    ExterCond: Present condition of the material on the exterior
        Ex Excellent
        Gd Good
        TA Average/Typical
        Fa Fair
        Po Poor
+       
    Foundation: Type of foundation
        BrkTil Brick & Tile
        CBlock Cinder Block
@@ -243,6 +273,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Slab Slab
        Stone Stone
        Wood Wood
+       
    BsmtQual: Height of the basement
        Ex Excellent (100+ inches)
        Gd Good (90-99 inches)
@@ -250,6 +281,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair (70-79 inches)
        Po Poor (<70 inches)
        NA No Basement
+       
    BsmtCond: General condition of the basement
        Ex Excellent
        Gd Good
@@ -257,12 +289,14 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair - dampness or some cracking or settling
        Po Poor - Severe cracking, settling, or wetness
        NA No Basement
+       
    BsmtExposure: Walkout or garden level basement walls
        Gd Good Exposure
        Av Average Exposure (split levels or foyers typically score average or above)
        Mn Mimimum Exposure
        No No Exposure
        NA No Basement
+       
    BsmtFinType1: Quality of basement finished area
        GLQ Good Living Quarters
        ALQ Average Living Quarters
@@ -271,7 +305,9 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        LwQ Low Quality
        Unf Unfinshed
        NA No Basement
+       
    BsmtFinSF1: Type 1 finished square feet
+   
    BsmtFinType2: Quality of second finished area (if present)
        GLQ Good Living Quarters
        ALQ Average Living Quarters
@@ -280,9 +316,13 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        LwQ Low Quality
        Unf Unfinshed
        NA No Basement
+       
    BsmtFinSF2: Type 2 finished square feet
+   
    BsmtUnfSF: Unfinished square feet of basement area
+   
    TotalBsmtSF: Total square feet of basement area
+   
    Heating: Type of heating
        Floor Floor Furnace
        GasA Gas forced warm air furnace
@@ -290,31 +330,45 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Grav Gravity furnace
        OthW Hot water or steam heat other than gas
        Wall Wall furnace
+       
    HeatingQC: Heating quality and condition
        Ex Excellent
        Gd Good
        TA Average/Typical
        Fa Fair
        Po Poor
+       
    CentralAir: Central air conditioning
        N No
        Y Yes
+       
    Electrical: Electrical system
        SBrkr Standard Circuit Breakers & Romex
        FuseA Fuse Box over 60 AMP and all Romex wiring (Average)
        FuseF 60 AMP Fuse Box and mostly Romex wiring (Fair)
        FuseP 60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix Mixed
+       
    1stFlrSF: First Floor square feet
+   
    2ndFlrSF: Second floor square feet
+   
    LowQualFinSF: Low quality finished square feet (all floors)
+   
    GrLivArea: Above grade (ground) living area square feet
+   
    BsmtFullBath: Basement full bathrooms
+   
    BsmtHalfBath: Basement half bathrooms
+   
    FullBath: Full bathrooms above grade
+   
    HalfBath: Half baths above grade
+   
    Bedroom: Number of bedrooms above basement level
+   
    Kitchen: Number of kitchens
+   
    KitchenQual: Kitchen quality
        Ex Excellent
        Gd Good
@@ -322,6 +376,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair
        Po Poor
    TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+   
    Functional: Home functionality rating
        Typ Typical Functionality
        Min1 Minor Deductions 1
@@ -331,7 +386,9 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Maj2 Major Deductions 2
        Sev Severely Damaged
        Sal Salvage only
+       
    Fireplaces: Number of fireplaces
+   
    FireplaceQu: Fireplace quality
        Ex Excellent - Exceptional Masonry Fireplace
        Gd Good - Masonry Fireplace in main level
@@ -339,6 +396,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair - Prefabricated Fireplace in basement
        Po Poor - Ben Franklin Stove
        NA No Fireplace
+       
    GarageType: Garage location
        2Types More than one type of garage
        Attchd Attached to home
@@ -347,14 +405,19 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        CarPort Car Port
        Detchd Detached from home
        NA No Garage
+       
    GarageYrBlt: Year garage was built
+   
    GarageFinish: Interior finish of the garage
        Fin Finished
        RFn Rough Finished
        Unf Unfinished
        NA No Garage
+       
    GarageCars: Size of garage in car capacity
+   
    GarageArea: Size of garage in square feet
+   
    GarageQual: Garage quality
        Ex Excellent
        Gd Good
@@ -362,6 +425,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair
        Po Poor
        NA No Garage
+       
    GarageCond: Garage condition
        Ex Excellent
        Gd Good
@@ -369,16 +433,24 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Fa Fair
        Po Poor
        NA No Garage
+       
    PavedDrive: Paved driveway
        Y Paved
        P Partial Pavement
        N Dirt/Gravel
-   WoodDeckSF: Wood deck area in square feet
+       
+   WoodDeckSF: Wood deck area in square feet 
+   
    OpenPorchSF: Open porch area in square feet
+   
    EnclosedPorch: Enclosed porch area in square feet
+   
    3SsnPorch: Three season porch area in square feet
+   
    ScreenPorch: Screen porch area in square feet
+   
    PoolArea: Pool area in square feet
+   
    PoolQC: Pool quality
        Ex Excellent
        Gd Good
@@ -446,11 +518,10 @@ Models employed are:
 5. RidgeCV with optimal alpha
 
 ## Conclusion
+All the models have comparable scores varying only slightly. All have a high accuracy score for the both the train and test data.  Therefore, there is both low variance and low bias. There some outliers which tell that the model is not scoring as well on a few high price homes so there is still room to improve. With more time and resources I would want to improve my models further.
 
-    I am confident with my models.All  have comparable scores varying only slightly. All have a high accuracy score for the both the train and test data.  Therefore, there is both low variance and low bias. There some outliers which tell that the model is not scoring as well on a few high price homes so there is still room to improve. With more time and resources I would want to improve my models further.
+As also, to better deal with ordinal features with better encoding schemes. Relying on discrete values for ordinal variables is very preliminary and really don't reflect the actual conditions.
 
-    As also, to better deal with ordinal features with better encoding schemes. Relying on discrete values for ordinal variables is very preliminary and really don't reflect the actual conditions.
+The model, however, may have limited applicability because it was constructed using data from houses sold in Ames, Iowa between 2006 and 2010. The scope of this dataset is limited, both in terms of time frame and geographic range. The four-year time range is insufficient to capture any annual price variations that may occur as a result of external factors such as the present economy. Inflation may have influenced housing prices in the current year (2019). The model is also specific to Ames homes and may not be as accurate when applied to data from another city or nation, where house prices are influenced by factors other than garage quality, for example.
 
-    The model, however, may have limited applicability because it was constructed using data from houses sold in Ames, Iowa between 2006 and 2010. The scope of this dataset is limited, both in terms of time frame and geographic range. The four-year time range is insufficient to capture any annual price variations that may occur as a result of external factors such as the present economy. Inflation may have influenced housing prices in the current year (2019). The model is also specific to Ames homes and may not be as accurate when applied to data from another city or nation, where house prices are influenced by factors other than garage quality, for example.
-
-    Any mathematical model can not really capture behavioral aspects. So, however much we tune it, there will always be an uncertain aspect. So, this entire exercise can only be indicative.
+Any mathematical model can not really capture behavioral aspects. So, however much we tune it, there will always be an uncertain aspect. So, this entire exercise can only be indicative.
