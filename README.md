@@ -457,12 +457,14 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        TA Average/Typical
        Fa Fair
        NA No Pool
+       
    Fence: Fence quality
        GdPrv Good Privacy
        MnPrv Minimum Privacy
        GdWo Good Wood
        MnWw Minimum Wood/Wire
        NA No Fence
+       
    MiscFeature: Miscellaneous feature not covered in other categories
        Elev Elevator
        Gar2 2nd Garage (if not described in garage section)
@@ -470,9 +472,13 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Shed Shed (over 100 SF)
        TenC Tennis Court
        NA None
+       
    MiscVal: $Value of miscellaneous feature
+   
    MoSold: Month Sold
+   
    YrSold: Year Sold
+   
    SaleType: Type of sale
        WD Warranty Deed - Conventional
        CWD Warranty Deed - Cash
