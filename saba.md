@@ -37,13 +37,13 @@ Is more than one metric utilized in order to better assess performance? 	|	0	|	N
 Does the student interpret the results of their model for purposes of inference? 	|	0	|	No.
 Is domain knowledge demonstrated when interpreting results? 	|	2	|	Implicit understanding show by handling and noting of overfitting issues.
 Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?	|	3	|	Yes.
-**Conclusion and Recommendations**	|	**0**	|
+**Conclusion and Recommendations**	|	**1**	|
 Does the student provide appropriate context to connect individual steps back to the overall project?	|	3	|	Yes.
- Is it clear how the final recommendations were reached? 	|	0	|	No recommendations given.
-Are the conclusions/recommendations clearly stated? 	|	0	|	No conclusions given.
-Does the conclusion answer the original problem statement? 	|	0	|	No.
-Does the student address how findings of this research can be applied for the benefit of stakeholders? 	|	0	|	No.
-Are future steps to move the project forward identified?	|	0	|	No.
+ Is it clear how the final recommendations were reached? 	|	2	|	Yes.
+Are the conclusions/recommendations clearly stated? 	|	2	|	Yes.
+Does the conclusion answer the original problem statement? 	|	1	|	Yes. Problem statement was a bit vague but you did create a model to predict house prices.
+Does the student address how findings of this research can be applied for the benefit of stakeholders? 	|	0	|	Your conclusions focused mainly on the limitations of your data. While it is important to be aware of and transparent with the limitations of your models you should also try to include a section on how your model could be useful despite those limitations.
+Are future steps to move the project forward identified?	|	1	|	Try to be specific about what the next steps you would like to take with the project are.
 **Project Organization**	|	**2**	|
 Are modules imported correctly (using appropriate aliases)? 	|	3	|	Yes.
 Are data imported/saved using relative paths? 	|	3	|	Yes.
