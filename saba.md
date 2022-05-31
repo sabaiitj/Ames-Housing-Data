@@ -37,7 +37,7 @@ Is more than one metric utilized in order to better assess performance? 	|	0	|	N
 Does the student interpret the results of their model for purposes of inference? 	|	0	|	No.
 Is domain knowledge demonstrated when interpreting results? 	|	2	|	Implicit understanding show by handling and noting of overfitting issues.
 Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?	|	3	|	Yes.
-**Conclusion and Recommendations**	|	**1**	|
+**Conclusion and Recommendations**	|	**2**	|
 Does the student provide appropriate context to connect individual steps back to the overall project?	|	3	|	Yes.
  Is it clear how the final recommendations were reached? 	|	2	|	Yes.
 Are the conclusions/recommendations clearly stated? 	|	2	|	Yes.
