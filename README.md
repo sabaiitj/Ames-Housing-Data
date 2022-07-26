@@ -56,33 +56,39 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **LotArea**: Lot size in square feet
    
    **Street**: Type of road access to property
+   
        Grvl Gravel
        Pave Paved
        
    **Alley**: Type of alley access to property
+   
        Grvl Gravel
        Pave Paved
        NA No alley access
        
    **LotShape**: General shape of property
+   
        Reg Regular
        IR1 Slightly irregular
        IR2 Moderately Irregular
        IR3 Irregular
        
    **LandContour**: Flatness of the property
+   
        Lvl Near Flat/Level
        Bnk Banked - Quick and significant rise from street grade to building
        HLS Hillside - Significant slope from side to side
        Low Depression
        
    **Utilities**: Type of utilities available
+   
        AllPub All public Utilities (E,G,W,& S)
        NoSewr Electricity, Gas, and Water (Septic Tank)
        NoSeWa Electricity and Gas Only
        ELO Electricity only
        
    **LotConfig**: Lot configuration
+   
        Inside Inside lot
        Corner Corner lot
        CulDSac Cul-de-sac
@@ -90,11 +96,13 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        FR3 Frontage on 3 sides of property
        
    **LandSlope**: Slope of property
+   
        Gtl Gentle slope
        Mod Moderate Slope
        Sev Severe Slope
        
    **Neighborhood**: Physical locations within Ames city limits
+   
        Blmngtn Bloomington Heights
        Blueste Bluestem
        BrDale Briardale
@@ -123,6 +131,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Veenker Veenker
        
    **Condition1**: Proximity to main road or railroad
+   
        Artery Adjacent to arterial street
        Feedr Adjacent to feeder street
        Norm Normal
@@ -134,6 +143,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        RRAe Adjacent to East-West Railroad
        
    **Condition2**: Proximity to main road or railroad (if a second is present)
+   
        Artery Adjacent to arterial street
        Feedr Adjacent to feeder street
        Norm Normal
@@ -145,6 +155,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        RRAe Adjacent to East-West Railroad
        
    **BldgType**: Type of dwelling
+   
        1Fam Single-family Detached
        2FmCon Two-family Conversion; originally built as one-family dwelling
        Duplx Duplex
@@ -152,6 +163,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        TwnhsI Townhouse Inside Unit
        
    **HouseStyle**: Style of dwelling
+   
        1Story One story
        1.5Fin One and one-half story: 2nd level finished
        1.5Unf One and one-half story: 2nd level unfinished
@@ -162,6 +174,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        SLvl Split Level
        
    **OverallQual**: Overall material and finish quality
+   
        10 Very Excellent
        9 Excellent
        8 Very Good
@@ -174,6 +187,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        1 Very Poor
        
    **OverallCond**: Overall condition rating
+   
        10 Very Excellent
        9 Excellent
        8 Very Good
@@ -190,6 +204,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **YearRemodAdd**: Remodel date (same as construction date if no remodeling or additions)
    
    **RoofStyle**: Type of roof
+   
        Flat Flat
        Gable Gable
        Gambrel Gabrel (Barn)
@@ -198,6 +213,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Shed Shed
        
    **RoofMatl**: Roof material
+   
        ClyTile Clay or Tile
        CompShg Standard (Composite) Shingle
        Membran Membrane
@@ -208,6 +224,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        WdShngl Wood Shingles
        
    **Exterior1st**: Exterior covering on house
+   
        AsbShng Asbestos Shingles
        AsphShn Asphalt Shingles
        BrkComm Brick Common
@@ -227,6 +244,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        WdShing Wood Shingles
        
    **Exterior2nd**: Exterior covering on house (if more than one material)
+   
        AsbShng Asbestos Shingles
        AsphShn Asphalt Shingles
        BrkComm Brick Common
@@ -246,6 +264,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        WdShing Wood Shingles
        
    **MasVnrType**: Masonry veneer type
+   
        BrkCmn Brick Common
        BrkFace Brick Face
        CBlock Cinder Block
@@ -255,6 +274,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **MasVnrArea**: Masonry veneer area in square feet
    
    **ExterQual**: Exterior material quality
+   
        Ex Excellent
        Gd Good
        TA Average/Typical
@@ -262,6 +282,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Po Poor
        
    **ExterCond**: Present condition of the material on the exterior
+   
        Ex Excellent
        Gd Good
        TA Average/Typical
@@ -269,6 +290,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Po Poor
        
    **Foundation**: Type of foundation
+   
        BrkTil Brick & Tile
        CBlock Cinder Block
        PConc Poured Contrete
@@ -277,6 +299,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Wood Wood
        
    **BsmtQual**: Height of the basement
+   
        Ex Excellent (100+ inches)
        Gd Good (90-99 inches)
        TA Typical (80-89 inches)
@@ -285,6 +308,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Basement
        
    **BsmtCond**: General condition of the basement
+   
        Ex Excellent
        Gd Good
        TA Typical - slight dampness allowed
@@ -293,6 +317,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Basement
        
    **BsmtExposure**: Walkout or garden level basement walls
+   
        Gd Good Exposure
        Av Average Exposure (split levels or foyers typically score average or above)
        Mn Mimimum Exposure
@@ -300,6 +325,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Basement
        
    **BsmtFinType1**: Quality of basement finished area
+   
        GLQ Good Living Quarters
        ALQ Average Living Quarters
        BLQ Below Average Living Quarters
@@ -311,6 +337,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **BsmtFinSF1**: Type 1 finished square feet
    
    **BsmtFinType2**: Quality of second finished area (if present)
+   
        GLQ Good Living Quarters
        ALQ Average Living Quarters
        BLQ Below Average Living Quarters
@@ -326,6 +353,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **TotalBsmtSF**: Total square feet of basement area
    
    **Heating**: Type of heating
+   
        Floor Floor Furnace
        GasA Gas forced warm air furnace
        GasW Gas hot water or steam heat
@@ -334,6 +362,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Wall Wall furnace
        
    **HeatingQC**: Heating quality and condition
+   
        Ex Excellent
        Gd Good
        TA Average/Typical
@@ -345,6 +374,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        Y Yes
        
    **Electrical**: Electrical system
+   
        SBrkr Standard Circuit Breakers & Romex
        FuseA Fuse Box over 60 AMP and all Romex wiring (Average)
        FuseF 60 AMP Fuse Box and mostly Romex wiring (Fair)
@@ -372,6 +402,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **Kitchen**: Number of kitchens
    
    **KitchenQual**: Kitchen quality
+   
        Ex Excellent
        Gd Good
        TA Typical/Average
@@ -380,6 +411,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **TotRmsAbvGrd**: Total rooms above grade (does not include bathrooms)
    
    **Functional**: Home functionality rating
+   
        Typ Typical Functionality
        Min1 Minor Deductions 1
        Min2 Minor Deductions 2
@@ -392,6 +424,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **Fireplaces**: Number of fireplaces
    
    **FireplaceQu**: Fireplace quality
+   
        Ex Excellent - Exceptional Masonry Fireplace
        Gd Good - Masonry Fireplace in main level
        TA Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
@@ -400,6 +433,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Fireplace
        
    **GarageType**: Garage location
+   
        2Types More than one type of garage
        Attchd Attached to home
        Basment Basement Garage
@@ -411,6 +445,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **GarageYrBlt**: Year garage was built
    
    **GarageFinish**: Interior finish of the garage
+   
        Fin Finished
        RFn Rough Finished
        Unf Unfinished
@@ -421,6 +456,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **GarageArea**: Size of garage in square feet
    
    **GarageQual**: Garage quality
+   
        Ex Excellent
        Gd Good
        TA Typical/Average
@@ -429,6 +465,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Garage
        
    **GarageCond**: Garage condition
+   
        Ex Excellent
        Gd Good
        TA Typical/Average
@@ -437,6 +474,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Garage
        
    **PavedDrive**: Paved driveway
+   
        Y Paved
        P Partial Pavement
        N Dirt/Gravel
@@ -454,6 +492,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **PoolArea**: Pool area in square feet
    
    **PoolQC**: Pool quality
+   
        Ex Excellent
        Gd Good
        TA Average/Typical
@@ -461,6 +500,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Pool
        
    **Fence**: Fence quality
+   
        GdPrv Good Privacy
        MnPrv Minimum Privacy
        GdWo Good Wood
@@ -468,6 +508,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        NA No Fence
        
    **MiscFeature**: Miscellaneous feature not covered in other categories
+   
        Elev Elevator
        Gar2 2nd Garage (if not described in garage section)
        Othr Other
@@ -482,6 +523,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **YrSold**: Year Sold
    
    **SaleType**: Type of sale
+   
        WD Warranty Deed - Conventional
        CWD Warranty Deed - Cash
        VWD Warranty Deed - VA Loan
