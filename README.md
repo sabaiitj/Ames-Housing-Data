@@ -22,6 +22,7 @@ The training data is not clean. So first the cleaning of this dataset was done,t
    **SalePrice** - the property's sale price in dollars. This is the target variable.
    
    **MSSubClass**: The building class
+   
        20 1-STORY 1946 & NEWER ALL STYLES
        30 1-STORY 1945 & OLDER
        40 1-STORY W/FINISHED ATTIC ALL AGES
@@ -40,14 +41,15 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        190 2 FAMILY CONVERSION - ALL STYLES AND AGES
        
    **MSZoning**: Identifies the general zoning classification of the sale.
-       A Agriculture
-       C Commercial
-       FV Floating Village Residential
-       I Industrial
-       RH Residential High Density
-       RL Residential Low Density
-       RP Residential Low Density Park
-       RM Residential Medium Density
+   
+     \t A Agriculture 
+     \t C Commercial
+     \t FV Floating Village Residential
+     \t I Industrial
+     \t RH Residential High Density
+     \t RL Residential Low Density
+     \t RP Residential Low Density Park
+     \t RM Residential Medium Density
        
    **LotFrontage**: Linear feet of street connected to property
    
