@@ -42,14 +42,14 @@ The training data is not clean. So first the cleaning of this dataset was done,t
        
    **MSZoning**: Identifies the general zoning classification of the sale.
    
-     \t A Agriculture 
-     \t C Commercial
-     \t FV Floating Village Residential
-     \t I Industrial
-     \t RH Residential High Density
-     \t RL Residential Low Density
-     \t RP Residential Low Density Park
-     \t RM Residential Medium Density
+       A Agriculture 
+       C Commercial
+       FV Floating Village Residential
+       I Industrial
+       RH Residential High Density
+       RL Residential Low Density
+       RP Residential Low Density Park
+       RM Residential Medium Density
        
    **LotFrontage**: Linear feet of street connected to property
    
